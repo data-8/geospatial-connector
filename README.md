@@ -1,3 +1,3 @@
 # Geospatial Connector
 
-Testing different python geospatial modules.
+## Spring 2016
