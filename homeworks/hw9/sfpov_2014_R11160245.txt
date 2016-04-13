@@ -1,0 +1,151 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R11160245
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2014 (5-Year Estimates)
+Dataset:          American Community Survey Tables:  2010 -- 2014 (5-Year Estimates)
+Tables:
+
+      1. Ratio of Income To Poverty Level In the Past 12 Months
+         Universe:  Universe:  Population for whom poverty status is determined
+         Name:      C17002
+         Variables:
+            C17002001:   Total
+            C17002002:      Under .50
+            C17002003:      .50 To .99
+            C17002004:      1.00 To 1.24
+            C17002005:      1.25 To 1.49
+            C17002006:      1.50 To 1.84
+            C17002007:      1.85 To 1.99
+            C17002008:      2.00 and Over
+
+
+      2. Ratio of Income To Poverty Level In the Past 12 Months
+         Universe:  Universe:  Population for whom poverty status is determined
+         Name:      C17002_se
+         Variables:
+            C17002001s:   Std. Error: Total
+            C17002002s:      Std. Error: Under .50
+            C17002003s:      Std. Error: .50 To .99
+            C17002004s:      Std. Error: 1.00 To 1.24
+            C17002005s:      Std. Error: 1.25 To 1.49
+            C17002006s:      Std. Error: 1.50 To 1.84
+            C17002007s:      Std. Error: 1.85 To 1.99
+            C17002008s:      Std. Error: 2.00 and Over
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      C17002001:      Population For Whom Poverty Status Is Determined
+      C17002002:      Population For Whom Poverty Status Is Determined: Under .50
+      C17002003:      Population For Whom Poverty Status Is Determined: .50 To .99
+      C17002004:      Population For Whom Poverty Status Is Determined: 1.00 To 1.24
+      C17002005:      Population For Whom Poverty Status Is Determined: 1.25 To 1.49
+      C17002006:      Population For Whom Poverty Status Is Determined: 1.50 To 1.84
+      C17002007:      Population For Whom Poverty Status Is Determined: 1.85 To 1.99
+      C17002008:      Population For Whom Poverty Status Is Determined: 2.00 and Over
+      C17002001s:     Std. Error: Population For Whom Poverty Status Is Determined
+      C17002002s:     Std. Error: Population For Whom Poverty Status Is Determined: Under .50
+      C17002003s:     Std. Error: Population For Whom Poverty Status Is Determined: .50 To .99
+      C17002004s:     Std. Error: Population For Whom Poverty Status Is Determined: 1.00 To 1.24
+      C17002005s:     Std. Error: Population For Whom Poverty Status Is Determined: 1.25 To 1.49
+      C17002006s:     Std. Error: Population For Whom Poverty Status Is Determined: 1.50 To 1.84
+      C17002007s:     Std. Error: Population For Whom Poverty Status Is Determined: 1.85 To 1.99
+      C17002008s:     Std. Error: Population For Whom Poverty Status Is Determined: 2.00 and Over
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2016
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R11160245
+
+If you have any questions contact info@socialexplorer.com
