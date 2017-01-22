@@ -64,6 +64,7 @@ https://github.com/data-8/geospatial-connector
 ### TO BE ADDED
 
 - How I create the instructor version of the notebook with the answers and the student version of the exercise from the instructor version using Chris's script.
+- How to request that new python package be added to the jupyter hub? - Email Ryan Lovett, right?
 
 ### QUESTIONS
 
