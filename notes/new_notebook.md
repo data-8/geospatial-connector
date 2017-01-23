@@ -1,15 +1,19 @@
 ## How to add a new python notebook to the DS8 Jupyter Hub for my connector class
 
+*Patty Frontiera (pfrontiera@berkeley.edu),  last updated 01/23/2017*
+
+This document describes one possible workflow for this process. See the [DS8 Connector-Instructors Workflow Wiki for another](https://github.com/data-8/connector-instructors/wiki/Workflow).
+
+
 ### ASSUMPTIONS:
 
 - **Required:** I've got an account on the DS8 jupyter hub -  http://datahub.berkeley.edu. 
   - To test this, I open that url in a browser and make sure I can log in.
-  - **Who do I contact if I cannot?**
-  - **What do I do if my student does not have access to the jupyter hub? Who do I contact**
+  - **If you or your student cannot login** see the [DS8 Contacts wiki](https://github.com/data-8/connector-instructors/wiki/Contacts).
   
 - **Optional:** I've got a github account.
     - My github account has the right (write) persmissions to my http://github.com/data-8 connector repository, im my case: https://github.com/data-8/geospatial-connector
-    - **Who do I contact to get permission to add files to my connector repostitory?**
+    - **If you have github questions**,  see the [DS8 Contacts wiki](https://github.com/data-8/connector-instructors/wiki/Contacts).
     
 
 
@@ -54,25 +58,27 @@ https://github.com/data-8/geospatial-connector
 
 ### OPEN GITHUB NOTEBOOK in THE JUPYTER HUB
 
-8. I update the url below to point to the folder with my assigment, for example: 
-  * https://data8.berkeley.edu/hub/interact?repo=geospatial-connector&path=drafts1/geoparsing
-  * **Note: not working on datahub.berkeley.edu as of Jan 22,2017 - only working on data8.berkeley.edu**
+8. Once I create my notebook I add it to bCourses as an assignment that links to the notebook. To create an `interact link` that allows my students to open the notebook on the class jupyter hub, I update the url below to point to the folder with my assigment. 
+
+  * `http://datahub.berkeley.edu/user-redirect/interact?repo=<repo_name>&path=<path_name>`
+  
+  For example:
+  * http://datahub.berkeley.edu/user-redirect/interact?repo=geospatial-connector&path=drafts1/geoparsing
 
 9. And then I run the whole notebook again to make sure it didn't mess up.
 
 
-### TO BE ADDED
+### Tips
 
-- How I create the instructor version of the notebook with the answers and the student version of the exercise from the instructor version using Chris's script.
-- How to request that new python package be added to the jupyter hub? - Email Ryan Lovett, right?
+- Everything it github connector repo is public access. So, don't add your answer keys unless you want to share. Put those in bCourses.
+- I recommend that you create a homework python notebook with the answers included. You can use then Chris Holgraf's script to strip out the answers and create a student version of the notebook. See this [connector-instructors github repo notebook] (https://github.com/data-8/connector-instructors/blob/master/examples/create_student_notebooks.ipynb).
+- If you need to request a new python package be added to the DS8 jupyter hub, see the [DS8 Software Resources wiki](https://github.com/data-8/connector-instructors/wiki/Software-Resources). Allow two weeks and testing time.
 
-### QUESTIONS
+
+### TBD
 
 - How do I archive my Sp2016 repo so I can just have my Sp2017 files?
 
-### COMMENTS
-
-- Everything it github connector repo is public access. So, don't add your answer keys unless you want to share. Put those in bCourses.
 
 
 
